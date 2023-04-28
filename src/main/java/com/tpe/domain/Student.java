@@ -47,5 +47,4 @@ public class Student {
     //@Setter(AccessLevel.NONE)
     private LocalDateTime createDate = LocalDateTime.now();
 
-
 }
