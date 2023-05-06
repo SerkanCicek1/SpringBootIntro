@@ -52,5 +52,8 @@ public class Student {
     @OneToMany(mappedBy = "student")
     private List<Book> book = new ArrayList<>();
 
+    @OneToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
 }

@@ -9,5 +9,6 @@ import java.util.Optional;
 public interface UserRepository extends JpaRepository<User, Long> {
 
     Optional<User> findByUserName(String userName) throws ResourceNotFoundException;
-    // UserService gibi bir clasim olmayacagi icin ( UserDetailService ) exception kismini burada handle ettik.
+    // UserService gibi bir clasim olmayacagi icin ( UserDetailService ) exception kismini
+    // burada handle ettik.
 }
